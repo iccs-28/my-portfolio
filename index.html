@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="css/output.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-white transition-colors duration-300">
+
+    <!-- Header -->
+    <header
+        class="sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800 bg-white/90 dark:bg-gray-950/90 backdrop-blur-md">
+        <nav class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+    
+            <a href="#" class="text-xl font-bold tracking-tight">
+                MyPortfolio<span class="text-blue-600">.</span>
+            </a>
+    
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+    
+            <div class="flex items-center gap-3">
+    
+                <button id="theme-toggle"
+                    class="border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    Toggle Theme
+                </button>
+    
+                <!-- Mobile Menu Button -->
+                <button id="menu-toggle" class="md:hidden border border-gray-300 dark:border-gray-700 rounded-lg px-3 py-2"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                    ☰
+                </button>
+    
+            </div>
+    
+        </nav>
+    
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 dark:border-gray-800 px-6 py-4">
+    
+            <div class="flex flex-col gap-4 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="#skills" class="hover:text-blue-600">Skills</a>
+                <a href="#projects" class="hover:text-blue-600">Projects</a>
+                <a href="#contact" class="hover:text-blue-600">Contact</a>
+            </div>
+    
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="max-w-6xl mx-auto px-6 py-28">
+
+            <p class="text-blue-600 font-medium mb-4">
+                Hello, I'm an Information Technology Student
+            </p>
+
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6">
+                Building Digital
+                <span class="text-blue-600">Experiences.</span>
+            </h1>
+
+            <p class="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mb-8">
+                I develop web applications using PHP, Laravel,
+                MySQL, JavaScript, and modern web technologies.
+            </p>
+
+            <a href="#projects"
+                class="inline-block bg-blue-600 text-white px-7 py-3 rounded-lg hover:bg-blue-700 transition">
+                View My Projects
+            </a>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="bg-gray-50 dark:bg-gray-900 py-20 px-6">
+
+            <div class="max-w-6xl mx-auto">
+
+                <h2 class="text-3xl font-bold mb-5">
+                    About Me
+                </h2>
+
+                <p class="text-gray-600 dark:text-gray-300 max-w-2xl">
+                    I am an Information Technology student
+                    interested in web development, database
+                    management, and UI/UX design.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 px-6">
+
+            <div class="max-w-6xl mx-auto">
+
+                <h2 class="text-3xl font-bold mb-5">
+                    Technical Skills
+                </h2>
+
+                <p class="text-gray-600 dark:text-gray-300">
+                    PHP · Laravel · MySQL · HTML · CSS · JavaScript ·
+                    Tailwind CSS · Figma
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-gray-50 dark:bg-gray-900 py-20 px-6">
+
+            <div class="max-w-6xl mx-auto">
+
+                <h2 class="text-3xl font-bold mb-5">
+                    My Projects
+                </h2>
+
+                <p class="text-gray-600 dark:text-gray-300">
+                    Study Hub Booking System
+                </p>
+
+                <p class="text-gray-600 dark:text-gray-300 mt-2">
+                    Inventory Management System
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 px-6">
+
+            <div class="max-w-6xl mx-auto">
+
+                <h2 class="text-3xl font-bold mb-5">
+                    Contact Me
+                </h2>
+
+                <p class="text-gray-600 dark:text-gray-300">
+                    Feel free to get in touch with me.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 dark:border-gray-800 py-6 text-center text-gray-500 dark:text-gray-400">
+
+        © 2026 My Portfolio. All rights reserved.
+
+    </footer>
+
+</body>
+
+</html>
