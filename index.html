@@ -11,7 +11,22 @@
     <script src="js/script.js" defer></script>
 </head>
 
-<body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-white transition-colors duration-300">
+<body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
+
+    <button id="back-to-hero" type="button" aria-label="Back to top" class="fixed bottom-6 right-6 z-50 flex h-12 w-12 items-center justify-center
+               rounded-full bg-gray-900 text-white shadow-lg
+               opacity-0 pointer-events-none translate-y-4
+               transition-all duration-300 ease-out
+               hover:bg-gray-700 hover:scale-105
+               dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200
+               focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2
+               focus-visible:ring-gray-900 dark:focus-visible:ring-white cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6" aria-hidden="true">
+            <path d="M12 19V5" />
+            <path d="M5 12l7-7 7 7" />
+        </svg>
+    </button>
 
     <!-- Header -->
     <header
@@ -33,7 +48,7 @@
             <div class="flex items-center gap-3">
     
                 <button id="theme-toggle"
-                    class="border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    class="border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition cursor-pointer">
                     Toggle Theme
                 </button>
     
@@ -63,7 +78,7 @@
     <main>
 
         <!-- Hero Section -->
-        <section class="max-w-6xl mx-auto px-6 py-28">
+        <section id="hero" class="max-w-6xl mx-auto px-6 py-28">
 
             <p class="text-blue-600 font-medium mb-4">
                 Hello, I'm an Information Technology Student
